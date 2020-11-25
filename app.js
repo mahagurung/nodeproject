@@ -41,6 +41,8 @@
 
 
  // //Database conection
+ //const MONGODB_URI = 'mongodb+srv://aggurung10:toor@cluster0.42cmr.mongodb.net/test?retryWrites=true&w=majority';
+
  mongoose.connect(mongodbUrl, ({
      useNewUrlParser: true,
      useUnifiedTopology: true,
